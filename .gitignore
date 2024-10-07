@@ -16,3 +16,6 @@ __pycache__
 *.i
 *.map
 *.o
+
+# ignore kicad backup
+Hardware/electric/schema/schema-backups/*
