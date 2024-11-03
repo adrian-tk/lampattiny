@@ -19,3 +19,7 @@ __pycache__
 
 # ignore kicad backup
 Hardware/electric/schema/schema-backups/*
+Hardware/electric/schema/_autosave-*.kicad_sch
+Hardware/electric/schema/#auto_saved_files#
+Hardware/electric/schema/*.kicad_sch.lck
+Hardware/electric/schema/fp-info-cache
