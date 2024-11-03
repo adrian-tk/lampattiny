@@ -88,7 +88,7 @@ HEX := $(PROG:.elf=.hex)
 DEVICE = pymcuprog
 
 # port for serial programming
-SERIAL_PORT = /dev/ttyACM0
+SERIAL_PORT = /dev/ttyACM1
 
 # flags for DEVICE 
 DEV_FLAGS = -t uart \
