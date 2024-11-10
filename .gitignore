@@ -2,6 +2,7 @@
 /env-tmp
 /area_for_testing
 /mkdocs/site
+/mkDocs/*/site/
 ext_doc/
 __pycache__
 .~lock.*
