@@ -2,6 +2,13 @@ site_name: LampATTiny
 
 nav:
   - Home: index.md
+  - Tutorials: tutorials.md
+  - How-to guides: howtoguides.md
+  - References: references.md
+  - Explatanions: explanations.md
   - About: about.md
+  - mkDocs: mkdocs.md
 
-theme: readthedocs
+theme:
+  name: readthedocs
+  titles_only: false

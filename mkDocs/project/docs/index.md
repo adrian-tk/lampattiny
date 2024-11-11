@@ -1,17 +1,16 @@
 # Welcome to LampATtiny
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+small project for control LED lamp.  
+Heart of project is 8 bit ATtiny controller
 
-## Commands
+This documentation is divided in four parts - Tutorials, How-to guides, References and Explanations. Lest talk a little about them, more information is available at [diátaxes](https://diataxis.fr/).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Tutorials - learning oriented
 
-## Project layout
+* How-to guides - goal oriented.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* References - information oriented.
+
+* Explanations - understanding oriented.
+
+If in doubt start from Tutorials from left panel
