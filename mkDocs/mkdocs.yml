@@ -1,0 +1,29 @@
+site_name: LampATTiny
+site_url: 
+repo_url: https://github.com/adrian-tk/lampattiny
+
+nav:
+  - Home: index.md
+  - Tutorials: tutorials.md
+  - How-to guides: howtoguides.md
+  - References: references.md
+  - Explanations: explanations.md
+  - About: about.md
+  - mkDocs: mkdocs.md
+
+theme:
+  name: material
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions: 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

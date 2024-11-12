@@ -1,4 +1,4 @@
-# Welcome to LampATtiny
+# Welcome to LampATTiny
 
 small project for control LED lamp.  
 Heart of project is 8 bit ATtiny controller
