@@ -13,4 +13,4 @@ This documentation is divided in four parts - Tutorials, How-to guides, Referenc
 
 * Explanations - understanding oriented.
 
-If in doubt start from Tutorials from left panel
+If in doubt start from Tutorials from left panel.
