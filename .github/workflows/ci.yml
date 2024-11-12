@@ -6,6 +6,8 @@ on:
       - main
 permissions:
   contents: write
+env:
+  CONFIG_FILE: mkDocs/
 jobs:
   deploy:
     runs-on: ubuntu-latest
