@@ -22,8 +22,9 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache/mkDocs
+          path: .cache
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: cd mkDocs/
       - run: mkdocs gh-deploy --force
