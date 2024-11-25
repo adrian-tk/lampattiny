@@ -8,7 +8,7 @@ nav:
   - How-to guides: howtoguides.md
   - References: references.md
   - Explanations: explanations.md
-  - About: about.md
+  - History: history.md
   - mkDocs: mkdocs.md
 
 theme:
