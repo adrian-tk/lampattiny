@@ -45,9 +45,23 @@ hardware used to power the lamp and other additional parts like microcontrollers
     - Operating temperature: Charge: 0°C ~ 45°C, discharge: -20°C ~ 60°C
     - Storage temperature: 1 month: -20°C ~ 60°C, 3 months: -20°C ~ 45°C, 1 year: -20°C ~ 23°C 
 
-??? "BMS (no bms)"
+??? "BMS"
     #### BMS
-    not available at this time, has to be added.
+
+[//]: # "automate with doccommon: ../docs/BMS_STJF/bms_stjf_ref_01.md S4"
+    Some cheap China BMS PCM battery protection board
+    
+    - brand: STJF
+    - MOS transistor can control the battery charge and discharge
+    - Over charge voltage: 4.25 +/- 0.05V
+    - Over charge release oltage 4.23 +/- 0.05V
+    - Over discharge voltage 2.54 +/- 0.1V
+    - Maximal continuous charging current: 2A
+    - Maximal coninous dischagrging current: 2A
+    - Overcurrent protection 3A
+    - Size: L4xW4xT3mm
+    - Weight: 10g
+[//]: # "automate with doccommon: ../docs/BMS_STJF/bms_stjf_ref_01.md"
 
 ??? "Charger (TP4056)"
     #### Charger
