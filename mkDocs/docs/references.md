@@ -27,11 +27,12 @@ graph TD
 
 hardware used to power the lamp and other additional parts like microcontrollers.
 
-??? "Cell (Samsung INR21700-50E)"
+??? "Cell"
     #### Cell
-    As a main power source Li-ion cell 21700 is used. 
-    Samsung INR21700-50E
 
+[//]: # "automate with doccommon: ../docs/Cell_Samsung_INR21700-50E/Cell_INR21700-50E_ref_01.md S4"
+    Samsung INR21700-50E - standard Li-Ion cell 21700
+    
     - Standard discharge capacity: 4900mAh (0.2C discharge)
     - Rated discharge capacity: 4753mAh (1C discharge)
     - Charge voltage: 4.2V
@@ -43,7 +44,8 @@ hardware used to power the lamp and other additional parts like microcontrollers
     - Discharge cut-off voltage: 2.5V
     - Cycle life: 500 cycles to 3802mAh (80%)
     - Operating temperature: Charge: 0°C ~ 45°C, discharge: -20°C ~ 60°C
-    - Storage temperature: 1 month: -20°C ~ 60°C, 3 months: -20°C ~ 45°C, 1 year: -20°C ~ 23°C 
+    - Storage temperature: 1 month: -20°C ~ 60°C, 3 months: -20°C ~ 45°C, 1 year: -20°C ~ 23°C
+[//]: # "automate with doccommon: ../docs/Cell_Samsung_INR21700-50E/Cell_INR21700-50E_ref_01.md S4"
 
 ??? "BMS"
     #### BMS
@@ -63,49 +65,52 @@ hardware used to power the lamp and other additional parts like microcontrollers
     - Weight: 10g
 [//]: # "automate with doccommon: ../docs/BMS_STJF/bms_stjf_ref_01.md"
 
-??? "Charger (TP4056)"
+??? "Charger"
     #### Charger
 
-    TP4056 module is used for charging
+[//]: # "automate with doccommon: ../docs/Battery_controller_MCP73871/bc_MCP73871_ref_01.md S4"
+    Some China Battery Charge Management Controller based on MCP73871 chip
+    
+    - 3.7V/4.2V Lithium Ion or Lithium Polymer battery chargernt
+    - Charge with 5-6V DC, USB or 6V solar panel!
+    - Too dark out?Use a USB mini-B cable or a 5V DC adapter
+    - Automatic charging current tracking for high efficiency use of any wattage solar panel
+    - Use any 6V solar panel
+    - Three color indicator LEDs- Power good, Charging and Donent
+    - Low Battery Indicator(fixed at 3.1V) with LED output
+    - Set for 500mA max charge rate, can be adjusted from 50mA up to 1A by soldering in a resistor
+    - Will always draw the most current possible from a solar cell- up to the max charge rate!
+    - Smart load sharing automatically uses the input power when available, to keep battery from constantly charging/discharging
+    - Temperature monitoringof battery by soldering in a 10K NTC thermistor (not included) - suggested for outdoor projects where the battery may get hot (50u00b0C) or cold (0u00b0C).
+[//]: # "automate with doccommon: ../docs/Battery_controller_MCP73871/bc_MCP73871_ref_01.md S4"
 
-    Chip: TP4056  
-    Supply voltage: (USB type C or IN connectors) 5 V  
-    Charging voltage: 4,2 V ± 1%  
-    Maximum charging current: 1 A  
-    Two indicator lights:
+??? "Voltage converter"
+    #### Voltage converter
 
-    - Red: charging
-    - Blue: Fully charged  
-
-    Protection against discharging below 2.5 V  
-    Protected against current draw of more than 3 A  
-    Module dimensions 26 x 17 mm  
-
-    ![TP4065 module schema](img/TP4056_schema.png "TP4056 module schema")
-
-??? "Voltage converter (MT3508)"
-    #### Voltege converter
-    Module MT3608 is used to boost voltage to 7V
-
+[//]: # "automate with doccommon: ../docs/Voltage_converter_MT3508/vc_MT3508_ref_01.md S4"
+    Module MT3608 is used to boost voltage
+    
     [documentation from addicore](https://www.addicore.com/products/mt3608-step-up-adjustable-dc-dc-switching-boost-converter)
-
+    
     This module features the MT3608 2 Amp step up (boost) converter, which can take input voltages as low as 2V and step up the output to as high as 28V. The MT3608 features automatic shifting to pulse frequency modulation mode at light loads. It includes under-voltage lockout, current limiting, and thermal overload protection.
-
-    This module has a multi-turn trimpot (potentiometer) that you can use to adjust the output voltage. Since the trimpot has 25 turns of adjustment you can easily adjust the output of the module to exactly the voltage you need.
-
+    
+     This module has a multi-turn trimpot (potentiometer) that you can use to adjust the output voltage. Since the trimpot has 25 turns of adjustment you can easily adjust the output of the module to exactly the voltage you need.
+    
     Boost converters are a great way to easily increase a given voltage, but that boost comes at the cost of less output current compared to input current.
-
+    
     Since this is a boost converter the output voltage has to be higher than the supplied input voltage. 
-
+    
     - Input Voltage: 2 to 24 V
     - Max Output Voltage: 28 V
     - Max Output Current: 2 A
     - Adjustment: 25-Turn Trimpot
     - Efficiency: up to 93%
     - Switching Frequency: 1.2 MHz
-
-
+    
     ![MT3608 module schema](img/MT3608_schema.jpg "MT3608 module schema")
+[//]: # "automate with doccommon: ../docs/Voltage_converter_MT3508/vc_MT3508_ref_01.md S4"
+
+
 
 ### Microcontroller
 
