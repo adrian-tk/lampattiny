@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+     <style>
+		path {
+               stroke-width:4;
+               fill:none;
+               stroke:black;
+          }
+          @media (prefers-color-scheme: dark) {
+          path {
+               stroke:white;
+          }
+     }
+     </style>
+     <path d="m 20,10 h 36 v 10 l -8,8 H 72 L 64,20 V 10 h 16 c 10,0 10,0 10,10 v 24 l -10,-8 H 40 l -16,14 c -8,6 -6.58,6 -4,6 h 34 c 0,0 0.84,6 6,6 5.16,0 6,-6 6,-6 h 24 v 24 C 90,90 90,90 80,90 H 20 c -10,0 -10,10e-7 -10,-10 L 10,20 C 10,10 10,10 20,10 Z"/>
+</svg>
